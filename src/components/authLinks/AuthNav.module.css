@@ -1,0 +1,38 @@
+.link {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 700;
+  color: #1aa93b;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.auth {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.link:hover {
+  color: #52e85c;
+}
+
+.link.active {
+  color: #88da2a;
+}
+
+@media (max-width: 768px) {
+  .link {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1220px) {
+  .link {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+  }
+}

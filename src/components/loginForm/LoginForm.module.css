@@ -1,0 +1,46 @@
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form {
+  border: 2px solid #0e8a40;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  border: 1px #260d66 solid;
+  text-align: left;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.boxInput {
+  display: flex;
+  flex-direction: column;
+
+  height: 80px;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 0;
+}

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-bg);
+  padding: 20px 10px;
+  height: 50px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  border-bottom: 1px #7e51de solid;
+  z-index: 8888;
+
+  left: 0;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 20px 30px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .header {
+    padding: 20px 40px;
+    height: 80px;
+  }
+}
